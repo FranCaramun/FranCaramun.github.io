@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(100deg, grey, darkgrey) ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+    background-color: blue;
+    margin-top: 0;
+    padding: 0.5em;
+    color: white;
+    align-items: baseline;
+    display: flex;
+}

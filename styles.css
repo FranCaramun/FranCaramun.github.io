@@ -1,64 +1,31 @@
-.cabecera {
-    display: flex;
-    text-align: center;
-   font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    color: azure;
-    margin: 20px;
-    justify-content: center;
-     width: 100%;
-    height: fit-content;
-}
-
-#bioonline {
-    display: flex;
-    margin-top: -5px;
-}
-
-#fondoCab {
-    display: flex;
-    background-color: green;
-    flex-direction: column;
-    border: 10px solid darkgreen;
-    border-radius: 20px;
-
-}   
-
 body {
-    background-color: limegreen;
-    
+    background: linear-gradient(100deg, grey, darkgrey) ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#defi {
-    font-size: 1.5rem;
-    height: 20px ;
+header h1 {
+    background-color: blue;
+    margin-top: 0;
+    padding: 0.5em;
+    color: white;
+    align-items: baseline;
     display: flex;
-    max-width: 500px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    column-gap:  2px;
-    margin-top: 20px;
-    color: azure;
 }
 
-#quees {
-
-        font-size: x-large;
-        color: black    ;
-        font-family: Verdana, Geneva, Tahoma, sans-serif ;
-        color: azure;
-        font: italic;
-        
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: grey;
+    border: 5px solid grey;
+    border-radius: 15px;
+    width: 200px;
+    height: 67px;
 }
+.formaIngreso h3 {
+    text-align: center;
+    margin-top: auto;
+    padding: 1em;
 
-#foto {
-
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -100px;
-   
-}
-
-#foto img {
-    border: 5px dotted darkgreen;
-    width: 450px; 
-    height: 300px;
 }
